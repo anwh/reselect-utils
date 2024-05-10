@@ -4,11 +4,11 @@
   "packageManager": "yarn@4.1.0",
   "main": "./dist/cjs/reselectUtils.cjs",
   "module": "./dist/reselectUtils.legacy-esm.js",
-  "types": "./dist/reselectUtils.d.ts",
+  "types": "./dist/reselectUtils.d.mts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "types": "./dist/reselectUtils.d.ts",
+      "types": "./dist/reselectUtils.d.mts",
       "import": "./dist/reselectUtils.mjs",
       "default": "./dist/cjs/reselectUtils.cjs"
     }
