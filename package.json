@@ -1,9 +1,8 @@
 {
   "name": "@veksa/reselect-utils",
-  "version": "5.1.0-p5",
+  "version": "5.1.0-p6",
   "packageManager": "yarn@4.1.0",
   "main": "./dist/cjs/reselectUtils.cjs",
-  "module": "./dist/reselectUtils.legacy-esm.js",
   "types": "./dist/reselectUtils.d.mts",
   "exports": {
     "./package.json": "./package.json",
@@ -14,7 +13,6 @@
     }
   },
   "files": [
-    "src",
     "dist"
   ],
   "scripts": {
