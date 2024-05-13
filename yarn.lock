@@ -1466,13 +1466,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/use-sync-external-store@npm:^0.0.3":
-  version: 0.0.3
-  resolution: "@types/use-sync-external-store@npm:0.0.3"
-  checksum: 10/161ddb8eec5dbe7279ac971531217e9af6b99f7783213566d2b502e2e2378ea19cf5e5ea4595039d730aa79d3d35c6567d48599f69773a02ffcff1776ec2a44e
-  languageName: node
-  linkType: hard
-
 "@types/yargs-parser@npm:*":
   version: 21.0.3
   resolution: "@types/yargs-parser@npm:21.0.3"
@@ -1628,6 +1621,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@veksa/react-redux@npm:^9.1.2-p1":
+  version: 9.1.2-p1
+  resolution: "@veksa/react-redux@npm:9.1.2-p1"
+  dependencies:
+    uuid: "npm:^9.0.1"
+  peerDependencies:
+    "@types/react": ^18.2.25
+    react: ^18.0
+    redux: ^5.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    redux:
+      optional: true
+  checksum: 10/7c03f9e53974d66f6c5d6fce8cc401b7d61c7437ee02551434fe3703fc580cb48a1bf5237ffde10af320c78eef736484155d8d016803fb4ca02d27b318c289b0
+  languageName: node
+  linkType: hard
+
 "@veksa/reselect-utils@workspace:.":
   version: 0.0.0-use.local
   resolution: "@veksa/reselect-utils@workspace:."
@@ -1642,6 +1653,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^6.14.0"
     "@typescript-eslint/parser": "npm:^6.14.0"
     "@veksa/re-reselect": "npm:^5.1.0-p1"
+    "@veksa/react-redux": "npm:^9.1.2-p1"
     "@veksa/reselect": "npm:^5.1.0-p1"
     enzyme: "npm:^3.11.0"
     enzyme-adapter-react-16: "npm:^1.15.5"
@@ -1661,7 +1673,6 @@ __metadata:
     prettier: "npm:^2.2.1"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
-    react-redux: "npm:^9.1.2"
     rimraf: "npm:^5.0.5"
     shelljs: "npm:^0.8.5"
     ts-jest: "npm:^29.1.2"
@@ -1672,10 +1683,10 @@ __metadata:
     use-media: "npm:^1.5.0"
   peerDependencies:
     "@veksa/re-reselect": ^5.1.0-p1
+    "@veksa/react-redux": ^9.1.2-p1
     "@veksa/reselect": ^5.1.0-p1
     react: ^18.3.1
     react-dom: ^18.3.1
-    react-redux: ^9.1.2
   languageName: unknown
   linkType: soft
 
@@ -6476,25 +6487,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-redux@npm:^9.1.2":
-  version: 9.1.2
-  resolution: "react-redux@npm:9.1.2"
-  dependencies:
-    "@types/use-sync-external-store": "npm:^0.0.3"
-    use-sync-external-store: "npm:^1.0.0"
-  peerDependencies:
-    "@types/react": ^18.2.25
-    react: ^18.0
-    redux: ^5.0.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    redux:
-      optional: true
-  checksum: 10/319b3286f538da7e609ca90fc6762ffae007c5cf75e525a25237ac2feaee63d9cf76fe766817de1fc8f27e7bde825ca409c463037d26dd8e57c435d383f80c50
-  languageName: node
-  linkType: hard
-
 "react-test-renderer@npm:^16.0.0-0":
   version: 16.14.0
   resolution: "react-test-renderer@npm:16.14.0"
@@ -7779,12 +7771,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-sync-external-store@npm:^1.0.0":
-  version: 1.2.2
-  resolution: "use-sync-external-store@npm:1.2.2"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10/671e9c190aab9a8374a5d468c6ba17f52c38b6fae970110bc196fc1e2b57204149aea9619be49a1bb5207fb6e51d8afd19c3bcb94afe61813fed039821461dc0
+"uuid@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "uuid@npm:9.0.1"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 10/9d0b6adb72b736e36f2b1b53da0d559125ba3e39d913b6072f6f033e0c87835b414f0836b45bcfaf2bdf698f92297fea1c3cc19b0b258bc182c9c43cc0fab9f2
   languageName: node
   linkType: hard
 
