@@ -3,7 +3,7 @@ import {
   ParametricSelector,
   createCachedSelector,
   ICacheObject,
-} from '@veksa/re-reselect';
+} from 're-reselect';
 import { NamedSelector, NamedParametricSelector } from './types';
 import {
   defineDynamicSelectorName,
@@ -15,7 +15,7 @@ import {
 import { createKeySelectorCreator } from './createKeySelectorCreator';
 import { KeySelectorComposer } from './createKeySelectorComposer';
 import { stringComposeKeySelectors } from './stringComposeKeySelectors';
-import {createSelectorCreator} from '@veksa/reselect';
+import {createSelectorCreator} from 'reselect';
 
 const sumString = (source: unknown) => {
   const stringSource = String(source);

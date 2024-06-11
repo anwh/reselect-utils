@@ -1,4 +1,4 @@
-import { KeySelector, ParametricKeySelector } from '@veksa/re-reselect';
+import { KeySelector, ParametricKeySelector } from 're-reselect';
 
 export const composedKeySelectorSymbol = Symbol.for('ComposedKeySelector');
 

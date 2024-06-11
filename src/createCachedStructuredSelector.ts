@@ -1,5 +1,5 @@
-import { createSelector, Selector } from '@veksa/reselect';
-import { createCachedSelector, ParametricSelector } from '@veksa/re-reselect';
+import { createSelector, Selector } from 'reselect';
+import { createCachedSelector, ParametricSelector } from 're-reselect';
 import { Options, ParametricOptions } from './types';
 import { createStructuredSelector } from './createStructuredSelector';
 
