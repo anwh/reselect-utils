@@ -1,5 +1,5 @@
 {
-  "name": "reselect-utils",
+  "name": "@anwh/reselect-utils",
   "version": "5.1.0-p7",
   "packageManager": "yarn@4.1.0",
   "main": "./dist/cjs/reselectUtils.cjs",
