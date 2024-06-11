@@ -1,5 +1,5 @@
-import { createSelector } from '@veksa/reselect';
-import { ParametricSelector, Selector } from '@veksa/re-reselect';
+import { createSelector } from 'reselect';
+import { ParametricSelector, Selector } from 're-reselect';
 
 export function createSequenceSelector<S, R>(
   selectors: Selector<S, R>[],

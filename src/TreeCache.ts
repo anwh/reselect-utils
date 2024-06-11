@@ -1,5 +1,5 @@
 // eslint-disable-next-line max-classes-per-file
-import { FlatObjectCache, ICacheObject } from '@veksa/re-reselect';
+import { FlatObjectCache, ICacheObject } from 're-reselect';
 
 export type TreeCacheObjectOptions = {
   cacheObjectCreator?: () => ICacheObject;

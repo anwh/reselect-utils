@@ -1,4 +1,4 @@
-import { ParametricSelector } from '@veksa/re-reselect';
+import { ParametricSelector } from 're-reselect';
 import { CachedSelector, NamedParametricSelector } from './types';
 import {
   getSelectorName,

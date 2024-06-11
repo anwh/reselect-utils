@@ -1,5 +1,5 @@
-import {createSelector, setGlobalDevModeChecks} from '@veksa/reselect';
-import { createCachedSelector } from '@veksa/re-reselect';
+import {createSelector, setGlobalDevModeChecks} from 'reselect';
+import { createCachedSelector } from 're-reselect';
 import { createChainSelector } from '../createChainSelector';
 import { createBoundSelector } from '../createBoundSelector';
 import { createSequenceSelector } from '../createSequenceSelector';

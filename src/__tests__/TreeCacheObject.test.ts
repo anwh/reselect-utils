@@ -1,4 +1,4 @@
-import { FlatMapCache } from '@veksa/re-reselect';
+import { FlatMapCache } from 're-reselect';
 import { TreeCache } from '../TreeCache';
 
 describe('TreeCache', () => {

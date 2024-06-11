@@ -1,5 +1,5 @@
 {
-  "name": "@veksa/reselect-utils",
+  "name": "reselect-utils",
   "version": "5.1.0-p7",
   "packageManager": "yarn@4.1.0",
   "main": "./dist/cjs/reselectUtils.cjs",
@@ -42,9 +42,6 @@
     "@types/shelljs": "^0.8.11",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
-    "@veksa/re-reselect": "^5.1.0-p1",
-    "@veksa/react-redux": "^9.1.2-p1",
-    "@veksa/reselect": "^5.1.0-p1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
     "enzyme-to-json": "^3.6.1",
@@ -61,8 +58,11 @@
     "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
+    "re-reselect": "^5.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "reselect": "^5.1.0",
     "rimraf": "^5.0.5",
     "shelljs": "^0.8.5",
     "ts-jest": "^29.1.2",
@@ -73,10 +73,10 @@
     "use-media": "^1.5.0"
   },
   "peerDependencies": {
-    "@veksa/re-reselect": "^5.1.0-p1",
-    "@veksa/react-redux": "^9.1.2-p1",
-    "@veksa/reselect": "^5.1.0-p1",
+    "re-reselect": "^5.1.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "reselect": "^5.1.0"
   }
 }

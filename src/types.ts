@@ -9,7 +9,7 @@ import {
   OutputParametricCachedSelector,
   ParametricKeySelector,
   ParametricKeySelectorCreator,
-} from '@veksa/re-reselect';
+} from 're-reselect';
 
 export type NamedSelector<S, R, D = any[]> = Selector<S, R> & {
   selectorName?: string;

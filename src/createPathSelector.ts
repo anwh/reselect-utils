@@ -1,4 +1,4 @@
-import { Selector, ParametricSelector } from '@veksa/re-reselect';
+import { Selector, ParametricSelector } from 're-reselect';
 import { NamedSelector, NamedParametricSelector, Path } from './types';
 import {
   defineDynamicSelectorName,

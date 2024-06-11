@@ -1,4 +1,4 @@
-import { KeySelector, ParametricKeySelector } from '@veksa/re-reselect';
+import { KeySelector, ParametricKeySelector } from 're-reselect';
 import { isPropSelector } from './createPropSelector';
 import { arePathsEqual, defaultKeySelector, isCachedSelector } from './helpers';
 import {
